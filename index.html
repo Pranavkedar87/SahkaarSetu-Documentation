@@ -41,8 +41,23 @@
 
     .subtitle {
       color: #666;
-      margin-bottom: 30px;
+      margin-bottom: 18px;
       line-height: 1.5;
+    }
+
+    .description {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0 auto 15px;
+      max-width: 480px;
+    }
+
+    .instruction {
+      color: #173b5f;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 22px;
     }
 
     .section {
@@ -79,12 +94,20 @@
     }
 
     @media (max-width: 480px) {
+      body {
+        padding: 15px;
+      }
+
       .container {
-        padding: 25px 20px;
+        padding: 28px 20px;
       }
 
       h1 {
         font-size: 25px;
+      }
+
+      .description {
+        font-size: 13px;
       }
 
       .link {
@@ -104,7 +127,18 @@
       Official Project Documentation
     </p>
 
-    <div class="section">Documentation</div>
+    <p class="description">
+      Access the official project documents, business model,
+      and BHASHINI API approval details.
+    </p>
+
+    <p class="instruction">
+      👆 Tap any document below to view it
+    </p>
+
+    <div class="section">
+      Documentation
+    </div>
 
     <a class="link"
        href="https://drive.google.com/file/d/1lmtn6qKj6M2E6z5H-2j1Rr5JjL5wMSG2/view?usp=drivesdk"
